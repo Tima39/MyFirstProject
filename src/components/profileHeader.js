@@ -6,11 +6,13 @@ const ProfileHeader = () => {
     <View style={styles.container}>
       
       <Text style={styles.paragraph}>
-        Не удается загрузить приложение.
-        Проверьте подключение к Интернету и перезагрузите страницу.
+      Мария Нащанская
       </Text>
       <Text style={styles.paragraph2}>
-        Повторить попытку
+      +7(921)611-85-47
+      </Text>
+      <Text style={styles.paragraph2}>
+      s.maria.k@gmail.com
       </Text>
     </View>
   );
@@ -20,24 +22,21 @@ export default ProfileHeader;
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 24,
+    padding: 0,
+    backgroundColor: 'white'
   },
   paragraph: {
-    margin: 24,
-    marginTop: 30,
-    fontSize: 11,
+    margin: 5,
+    marginTop: 5,
+    fontSize: 15,
     fontWeight: 'bold',
-    textAlign: 'center',
   },
   paragraph2: {
-    margin: 24,
+    margin: 5,
     marginTop: 0,
     fontSize: 10,
     fontWeight: 'bold',
-    textAlign: 'center',
-    color: 'blue',
+    color: 'gray',
   },
   logo: {
     height: 228,

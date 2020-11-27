@@ -15,7 +15,7 @@ import ProfileHeader from './src/components/profileHeader';
 
 const App = () => {
   return (
-    <View style={{backgroundColor: 'green', flex: 1}}>
+    <View style={{backgroundColor: 'white', flex: 1}}>
     <ProfileHeader />
     </View>
   );
